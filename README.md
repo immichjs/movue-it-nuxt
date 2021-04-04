@@ -1,4 +1,4 @@
-# nlw-pomodoro
+# movue-it-nuxt
 
 ## Build Setup
 
