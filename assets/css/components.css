@@ -1,0 +1,23 @@
+.button {
+	@apply flex items-center justify-center w-full p-6 mt-8 font-semibold transition-colors rounded-md;
+}
+
+.button.completed {
+	@apply h-20 bg-white border-b-2 cursor-not-allowed text-text border-green;
+}
+
+.button.abandon {
+	@apply h-20 bg-white text-text hover:bg-red hover:text-white;
+}
+
+.button.start {
+	@apply h-20 text-white bg-blue hover:bg-blue-dark;
+}
+
+.button.failed {
+	@apply w-1/2 h-3 text-white bg-red hover:bg-red-dark;
+}
+
+.button.succeeded {
+	@apply w-1/2 h-3 text-white bg-green hover:bg-green-dark;
+}
