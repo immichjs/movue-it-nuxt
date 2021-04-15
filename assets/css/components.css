@@ -1,5 +1,5 @@
 .button {
-	@apply flex items-center justify-center w-full p-6 mt-8 font-semibold transition-colors rounded-md;
+	@apply flex items-center justify-center w-full p-6 mt-8 font-semibold transition-colors rounded-md shadow-sm focus:outline-none;
 }
 
 .button.completed {
